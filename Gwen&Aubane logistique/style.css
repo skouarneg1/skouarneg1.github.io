@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(180deg, #4B516B,#CCB1AB, #9D8F9C);
+    color: #F5EEEA;
+}
+
+.inline{
+    display: inline;
+}
+
+.container-fluid{
+    border-radius: 1px solid black;
+}
+
+#navbarSupportedContent{
+    height: 5em;
+    margin-right: 0.1em;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#fullBar{
+    width: 100%;
+}
+
+
+.nav-item{
+    margin: 10px;
+    background-color: #CCB1AB;
+    border-radius: 20px;
+    width: 7em;
+    text-align: center;
+    color: aliceblue;
+}
+
+.navbar-brand{
+    padding-left: 5px;
+}
+
+#navB{
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, rgba(255,249,34), rgba(255,0,128), rgba(255,0,0));
+    border-image-slice: 1;
+    background:linear-gradient(180deg, #23243C,#4B516B);
+    color: #F5EEEA;
+}
+
+#navRight{
+    padding-right: 3em;
+}
+
+
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'Tangerine-Bold';
+    src: url('Tangerine-Bold.ttf') format('truetype');
+}
+
+h1{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'georgia', Arial, serif;
+    padding-left: 3em;
+    text-align: center;
+}
+
+
+h2{
+    font-family: 'Tangerine-Bold', Arial, serif;
+    font-size: 200px;
+    font-weight: bold;
+    text-align:center;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'georgia', Arial, serif;
+}
+
+#pres{
+    font-family: 'Tangerine-Bold', Arial, serif;
+    margin: 10px;
+    border-right: 1px solid white;
+    letter-spacing: 100%;
+
+    text-align: center;
+}
+
+#presR{
+    font-family: 'Tangerine-Bold', Arial, serif;
+    margin: 10px;
+    text-align: center;
+}
+
+h3{
+    font-size: 50px;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Tangerine-Bold', Arial, serif;
+    font-size: 110px;
+}
+
+#article{
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, #CCB1AB, #F5EEEA, #CCB1AB);
+    border-image-slice: 1;
+}
+
+.titreArticle{
+    font-family: 'Tangerine-Bold', Arial, serif;
+    font-size: 50px;
+}
+
+#grandTitre{
+    text-align: center;
+}
+
+.foot{
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, rgba(255,249,34), rgba(255,0,128), rgba(255,0,0));
+    font-family: 'Tangerine-Bold', Arial, serif;
+}
+
+#textfoot{
+    font-family: 'Tangerine-Bold', Arial, serif;
+}
+
+#footb{
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, rgba(255,249,34), rgba(255,0,128), rgba(255,0,0));
+    border-image-slice: 1;
+    background:linear-gradient(180deg, #9D8F9C,#4B516B);
+    padding: 1em;
+}
+
+#titre{
+    font-size: 250px;
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+}
+
+#tem{
+    margin-bottom: 0.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #F5EEEA;
+}
+
+a:hover{
+    color: #4B516B;
+}
